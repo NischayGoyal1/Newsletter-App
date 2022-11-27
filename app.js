@@ -54,9 +54,7 @@ const url="https://us10.api.mailchimp.com/3.0/lists/54013afcf4"
  request.end();
 
 })
-app.listen(3000,function(){
+app.listen(process.env.PORT || 3000,function(){
     console.log("Server is running on port 3000");  
 })
 
-// 566a534747c501436bfafbe2367505aa-us10
-// 54013afcf4
